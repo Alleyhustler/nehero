@@ -42,7 +42,7 @@ body, html {
 
 /* Set specific size for the second photo */
 .photo-section img.second-photo {
-    width: 500px; /* Adjust this value as needed */
+    width: 300px; /* Adjust this value as needed */
 }
 
 /* Hover effect for the second photo */
