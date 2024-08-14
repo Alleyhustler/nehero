@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+            width: 80%;
+        }
+
+        .title {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .image-container {
+            border: 5px solid #333;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .social {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .social.left {
+            left: -50px;
+        }
+
+        .social.right {
+            right: -50px;
+        }
+
+        .social img {
+            width: 100px;
+            height: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        .social img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">ORIGAMI SHIBA INU</div>
+        <div class="image-container">
+            <img src="images/origami.jpg" alt="Your Image">
+        </div>
+        <div class="social left">
+            <a href="https://t.me/+BXpeXMty1cA4NjI0"><img src="images/telegram_icon__1_-removebg-preview.png" alt="Telegram"></a>
+        </div>
+        <div class="social right">
+            <a href="https://x.com/OSI_sol"><img src="images/image-removebg-preview (21).png" alt="Twitter"></a>
+        </div>
+    </div>
+</body>
+</html>
