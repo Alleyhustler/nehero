@@ -1,0 +1,57 @@
+/* General reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('images/banner wifsquint (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Title in the center */
+.center-title {
+    font-family: 'Pacifico', cursive; /* Surprising Font from Google Fonts */
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    text-align: center;
+}
+
+.socials {
+    position: absolute;
+    top: 20px; /* Positioned from the top */
+    right: 20px; /* Positioned from the right */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
+}
+
+/* Spin animation on hover */
+.social-icon:hover {
+    transform: rotate(360deg); /* Spin by 360 degrees on hover */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+/* You can remove the :active animation if it's not needed anymore */
