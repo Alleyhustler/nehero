@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Fun Website</title>
+  <!-- Google Font for a funny style -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Press Start 2P', cursive; /* Funniest font */
+    }
+
+    /* Background Image */
+    body {
+      background-image: url('images/image (45).jpg'); /* Replace with your background image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: rgb(255, 0, 0);
+      
+    }
+
+    /* Main Image */
+    .main-image {
+        
+      margin-top: 20px;
+      transition: transform 0.3s ease; /* Transition for hover effect */
+    }
+    .main-image img {
+      width: 600px; /* Increased the width to make the main image bigger */
+    }
+
+    /* Hover effect on the main image */
+    .main-image:hover {
+      transform: scale(1.1); /* Slightly enlarge the image on hover */
+    }
+
+    /* Title Styling */
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px;
+      background-color: rgba(255, 0, 238, 0.5); /* Add a semi-transparent background */
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    /* Social Media Icons */
+    .socials {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .socials a img {
+      width: 100px;
+      height: 100px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effects */
+    }
+
+    /* Hover effect on social icons */
+    .socials a img:hover {
+      transform: scale(1.2); /* Slightly enlarge the icon on hover */
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a glowing effect on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Title -->
+  <h1>Floating Puppy Spirit</h1>
+
+  <!-- Centered Main Image -->
+  <div class="main-image">
+    <img src="images/image-removebg-preview (26).png" alt="Main Image" width="300"> <!-- Replace with your main image -->
+  </div>
+
+  <!-- Social Media Icons -->
+  <div class="socials">
+    <a href="https://x.com/FloatPupSpirit" target="_blank">
+      <img src="images/image-removebg-preview (21).png" alt="Twitter"> <!-- Replace with your Twitter icon -->
+    </a>
+    <a href="https://t.me/+MH2PP6basHM0OWU0" target="_blank">
+      <img src="images/telegram_icon__1_-removebg-preview.png" alt="Telegram"> <!-- Replace with your Telegram icon -->
+    </a>
+  </div>
+
+</body>
+</html>
